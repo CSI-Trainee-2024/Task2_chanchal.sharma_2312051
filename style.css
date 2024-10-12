@@ -140,12 +140,14 @@ i,b{
 .add_btn{
     background-color: #F3C623;
 }
+.Add:hover{
+    transform: scale(1.1);
+    transition: 1s ease-in;
+}
 
 .half-line {
-    width: 50%;
-    height: 2px; 
-    background-color: #000; 
+    width: 50%; 
+    border: none;
+    border-top: 2px solid #000; 
     margin: 0 auto; 
-    flex-basis: 100%;
-    
 }
