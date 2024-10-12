@@ -144,10 +144,12 @@ i,b{
     transform: scale(1.1);
     transition: 1s ease-in;
 }
-
 .half-line {
-    width: 50%; 
+    position: relative;
+    top:-9.5rem;
+    width: 75%; 
     border: none;
-    border-top: 2px solid #000; 
-    margin: 0 auto; 
+    border-top: 0.15rem solid #000; 
+    margin-top:1rem;
+    margin-left: 10.8rem;
 }
