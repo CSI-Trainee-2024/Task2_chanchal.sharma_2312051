@@ -4,8 +4,8 @@
     background-color: #a584ce;
 }
 .begin{
-    margin: 2rem;
-    padding: 2rem;
+    margin: 8rem;
+    padding: 4rem;
     background-color:#F3C623;
     max-width: 75%;
     width: 530rem;
@@ -18,6 +18,7 @@
 }
 h1{
     background-color: #F3C623;
+    font-size: 3rem;
 }
 .button_1{
     background-color: #C4D7FF;
@@ -27,17 +28,19 @@ h1{
     border: none;
     border-radius:0.5rem;
     box-shadow: 0.2rem 0.2rem;
+    cursor: pointer;
+}
+.button_1:hover{
+  transform: scale(1.1);
+  transition: 0.5s ease-in;
 }
 i,b{
     background-color: #C4D7FF;
 }
-
 .flex-container {
-    
-   
     gap: 1.5rem;
-    margin: 2rem;
-    padding:2rem;
+    margin: 8rem;
+    padding:4rem;
     background-color: #C4D7FF;
     max-width: 75%;
     width: 530rem;
@@ -56,49 +59,67 @@ i,b{
  .time-limit-container {
     position: relative;
 }
- 
-.time-limit-input {
+ .time-limit-input {
     padding-right: 5rem;
     width: 22rem;
 }
-
-.t1, .t2, .t3 {
+.t1 {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-
-    width: 20px;
-    height: 20px;
-    
-    line-height: 1.4rem;
-    border-radius: 3px;
+    width: 1rem;
+    height: 1rem;
+    line-height: 1.1rem;
     font-size: 1rem;
-    padding: 0.1rem 0.3rem;
+    padding: 0.2rem 0.4rem;
     background-color: #F3C623;
     color: black;
-    border-radius: 5px;
     text-align: center;
-    border-radius:0.5rem;
+    border-radius:0.2rem;
     box-shadow: 0.1rem 0.1rem;
+    margin-left: 1rem;
 }
-
-
+.t2{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+     width: 1rem;
+    height: 1rem;
+    line-height: 1.1rem;
+    font-size: 1rem;
+    padding: 0.2rem 0.4rem;
+    background-color: #F3C623;
+    color: black;
+    text-align: center;
+    border-radius:0.2rem;
+    box-shadow: 0.1rem 0.1rem;
+    margin-right: 0.2rem;
+}
+.t3{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1rem;
+    height: 1rem;
+    line-height: 1.1rem;
+    font-size: 1rem;
+    padding: 0.2rem 0.4rem;
+    background-color: #F3C623;
+    color: black;
+    text-align: center;
+    border-radius:0.2rem;
+    box-shadow: 0.1rem 0.1rem;
+    margin-right:0.1rem;
+}
 .t1 {
-    right: 60px; 
-
+    right: 4.85rem; 
 }
-
 .t2 {
-    right: 35px; 
-
+    right: 2.5rem; 
 }
-
 .t3 {
-    right: 10px; 
-   
-}
-
-
+    right: 0.5rem; 
+   }
 .Add {
     padding: 0.2rem 0.5rem;
     background-color: #F3C623;
