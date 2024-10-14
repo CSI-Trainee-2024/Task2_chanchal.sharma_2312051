@@ -62,9 +62,11 @@ i,b{
     position: relative;
     background-color:#C4D7FF; 
 }
- .time-limit-input {
-    padding-right: 5rem;
+.time-limit-input {
+    padding: 1rem;
+    font-size: 1rem;
     width: 25rem;
+    border-radius: 0.5rem;
     background-color:#C4D7FF; 
 }
 .t1 {
@@ -154,7 +156,7 @@ i,b{
     margin-left: 10.8rem;
 }
 .stop{
-   margin-top:0.5rem;
+   /* margin-top:-10rem; */
    margin-left: 42rem;
    padding:1rem 3rem;
    background-color: #F3C623;
@@ -171,10 +173,16 @@ i,b{
     transition: 1s ease-in;
 }
 
-@media(max-width:768px){
+
+
+
+
+
+@media(max-width:844px){
 .begin{
     width:50%;
-    font-size:1.2 rem;
+    font-size: 1.2rem;
+    margin-left: 2rem;
 }
 h1{
     font-size:1.2rem;
@@ -185,24 +193,40 @@ h1{
 }
 .flex-container{
 width:50%;
+margin-left: 2rem;
+padding-left: 1rem;
 }
 
 .first-input{
-      width:1rem;
+    width:3rem;
 }
-.time-limit-container .time-limit-input{
-    width:1.2rem;
+.time-limit-container{
+    width: 0.2rem;
+}
+.time-limit-input{
+    width:3rem;
+}
+.t1{
+    display: none;
+}
+.t2{
+    display: none;
+}
+.t3{
+    display: none;
 }
 .Add{
+    margin-left: 4rem;
     font-size: 0.6rem;
 }
 .half-line{
+    margin-left: 4.5rem;
     width:50%;
 }
 .stop{
     margin-top:0.25rem;
-   margin-left: 21rem;
+   /* margin-left: 21rem; */
    padding:0.5rem 1.5rem;
-}
+   margin-left: 7rem;
 }
 }
