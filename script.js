@@ -24,15 +24,16 @@ document.addEventListener('DOMContentLoaded', () => {
             t2.textContent = String(minutes).padStart(2, '0');
             t3.textContent = String(seconds).padStart(2, '0');
             if (timeRemaining === 0) {
-                if (!wait){
-                clearInterval(countdownInterval);
-                saveExerciseSummary(exerciseName, startTime, startTime - timeRemaining, false);
-                nextExerciseCallback(); 
-                }
-                else{
-                    timeRemaining=30;
-                    wait=false;
-                }
+                // if (wait){
+                //     timeRemaining=30;
+                //     wait=false;
+                // }
+                // else{
+                    alert('Exercise over!')
+                    clearInterval(countdownInterval);
+                    saveExerciseSummary(exerciseName, startTime, startTime - timeRemaining, false);
+                    nextExerciseCallback(); 
+                // }
             }
             timeRemaining--;
         }, 1000);
